@@ -11,6 +11,12 @@ body {
     color: #c7d5e0;
     scroll-behavior: smooth;
 }
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
 
 /* variables */
 :root {
@@ -431,116 +437,117 @@ footer p {
 /* Diseño Responsivo */
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
-        gap: 10px;
+      flex-direction: column;
+      gap: 10px;
     }
-
+  
     .hero {
-        padding: 40px 10px;
+      padding: 40px 10px;
     }
-
+  
     .hero-image {
-        width: 100%;
-        max-width: 600px;
+      width: 100%;
+      max-width: 600px;
     }
-
+  
     .categories h2,
     .products h2,
     .contact h2 {
-        font-size: 1.8em;
+      font-size: 1.8em;
     }
-
-    .category-card,
+  
+    .boton-categoria,
     .product-card {
-        width: 150px;
+      width: 150px;
     }
-
-    .category-card img {
-        height: 100px;
+  
+    .boton-categoria img {
+      height: 100px;
     }
-
+  
     .product-card img {
-        height: 120px;
+      height: 120px;
     }
-
+  
     .products h3 {
-        font-size: 1.3em;
+      font-size: 1.3em;
     }
-
+  
     .game-details {
-        padding: 15px;
+      padding: 15px;
     }
-
+  
     .product-content {
-        flex-direction: column;
-        align-items: flex-start;
+      flex-direction: column;
+      align-items: flex-start;
     }
-
+  
     .product-content img {
-        width: 100%;
-        max-width: 300px;
+      width: 100%;
+      max-width: 300px;
     }
-
+  
     .product-info h3 {
-        font-size: 1.5em;
+      font-size: 1.5em;
     }
-
+  
     .product-info p {
-        font-size: 1em;
+      font-size: 1em;
     }
-
+  
     .contact-form {
-        padding: 0 10px;
+      padding: 0 10px;
     }
-}
-
-@media (max-width: 480px) {
+  }
+  
+  @media (max-width: 480px) {
     .hero {
-        padding: 30px 10px;
+      padding: 30px 10px;
     }
-
+  
     .hero-image {
-        max-width: 100%;
+      max-width: 100%;
     }
-
+  
     .categories h2,
     .products h2,
     .contact h2 {
-        font-size: 1.5em;
+      font-size: 1.5em;
     }
-
-    .category-card,
+  
+    .boton-categoria,
     .product-card {
-        width: 120px;
+      width: 120px;
     }
-
-    .category-card h3,
+  
+    .boton-categoria h3,
     .product-card h3 {
-        font-size: 1em;
+      font-size: 1em;
     }
-
+  
     .product-card p {
-        font-size: 0.9em;
+      font-size: 0.9em;
     }
-
+  
     .products h3 {
-        font-size: 1.2em;
+      font-size: 1.2em;
     }
-
+  
     .game-details {
-        padding: 10px;
+      padding: 10px;
     }
-
+  
     .product-info h3 {
-        font-size: 1.3em;
+      font-size: 1.3em;
     }
-
+  
     .product-info p {
-        font-size: 0.9em;
+      font-size: 0.9em;
     }
-
+  
     .product-info .cta-button {
-        padding: 6px 12px;
-        font-size: 0.9em;
+      padding: 6px 12px;
+      font-size: 0.9em;
     }
-}
+  }
+  
